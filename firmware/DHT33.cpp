@@ -1,5 +1,5 @@
 #include "application.h"
-#include "DHT.h"
+#include "DHT33.h"
 
 DHT::DHT(uint8_t pin, uint8_t type, uint8_t count) {
     _pin = pin;
